@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: white;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #797878;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #d1e9ff;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 80px;
+    background-color: rgba(245, 242, 242, 0.653);
+}
+
+.hero-left{
+    flex-basis: 40%;
+
+}
+
+.hero-left h1 {
+    font-size: 50px;
+
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 20px;
+    color: #797878;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+
+.username{
+    height: 55px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 15px;
+    color: #0d6efd;
+    background-color:rgb(0, 149, 255,0.1) ;
+    border: none;
+    transition: 0.2s ease-out;
+}
+
+.username:hover{
+    background-color: #559cde;
+    color: white;
+}
+
+.bookbtn {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in;
+}
+
+.bookbtn:hover {
+    background-color: #084298;
+}
+
+.hero-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
